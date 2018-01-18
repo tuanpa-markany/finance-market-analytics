@@ -18,6 +18,16 @@ import {
 } from '@nebular/theme';
 
 import {
+  NbAuthComponent,
+  NbAuthBlockComponent,
+  NbLoginComponent,
+  NbLogoutComponent,
+  NbRegisterComponent,
+  NbRequestPasswordComponent,
+  NbResetPasswordComponent
+} from './auth/components';
+
+import {
   FooterComponent,
   HeaderComponent,
   SearchInputComponent,
@@ -34,8 +44,9 @@ import {
 } from './layouts';
 import { DEFAULT_THEME } from './styles/theme.default';
 import { COSMIC_THEME } from './styles/theme.cosmic';
+import { RouterModule } from '@angular/router';
 
-const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
+const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule, RouterModule];
 
 const NB_MODULES = [
   NbCardModule,
@@ -62,6 +73,13 @@ const COMPONENTS = [
   SampleLayoutComponent,
   ThreeColumnsLayoutComponent,
   TwoColumnsLayoutComponent,
+  NbAuthComponent,
+  NbAuthBlockComponent,
+  NbLoginComponent,
+  NbLogoutComponent,
+  NbRegisterComponent,
+  NbRequestPasswordComponent,
+  NbResetPasswordComponent
 ];
 
 const PIPES = [
@@ -74,7 +92,7 @@ const PIPES = [
 const NB_THEME_PROVIDERS = [
   ...NbThemeModule.forRoot(
     {
-      name: 'cosmic',
+      name: 'default',
     },
     [ DEFAULT_THEME, COSMIC_THEME ],
   ).providers,
