@@ -10,7 +10,7 @@ import { NbAuthService, NB_AUTH_OPTIONS_TOKEN, NbAuthResult } from '@nebular/aut
 
 
 @Component({
-  selector: 'nb-reset-password-page',
+  selector: 'ngx-reset-password-page',
   styleUrls: ['./reset-password.component.scss'],
   template: `
     <nb-auth-block>

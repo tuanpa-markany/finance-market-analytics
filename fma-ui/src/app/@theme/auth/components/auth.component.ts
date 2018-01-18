@@ -7,7 +7,7 @@ import { Component, OnDestroy } from '@angular/core';
 import { NbAuthService } from '@nebular/auth';
 
 @Component({
-  selector: 'nb-auth',
+  selector: 'ngx-auth',
   styleUrls: ['./auth.component.scss'],
   template: `
     <nb-layout>

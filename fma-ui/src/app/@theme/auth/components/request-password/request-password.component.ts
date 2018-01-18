@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 import { getDeepFromObject } from '@nebular/auth/helpers.js';
 import { NbAuthService, NB_AUTH_OPTIONS_TOKEN, NbAuthResult } from '@nebular/auth';
 @Component({
-  selector: 'nb-request-password-page',
+  selector: 'ngx-request-password-page',
   styleUrls: ['./request-password.component.scss'],
   template: `
     <nb-auth-block>

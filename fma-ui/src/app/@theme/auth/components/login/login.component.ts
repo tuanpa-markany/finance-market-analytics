@@ -9,7 +9,7 @@ import { getDeepFromObject } from '@nebular/auth/helpers.js';
 import { NbAuthService, NB_AUTH_OPTIONS_TOKEN, NbAuthResult } from '@nebular/auth';
 
 @Component({
-  selector: 'nb-login',
+  selector: 'ngx-login',
   template: `
     <nb-auth-block>
       <h2 class="title">Sign In</h2>

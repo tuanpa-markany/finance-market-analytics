@@ -10,7 +10,7 @@ import { NbAuthService, NB_AUTH_OPTIONS_TOKEN, NbAuthResult } from '@nebular/aut
 
 
 @Component({
-  selector: 'nb-register',
+  selector: 'ngx-register',
   styleUrls: ['./register.component.scss'],
   template: `
     <nb-auth-block>

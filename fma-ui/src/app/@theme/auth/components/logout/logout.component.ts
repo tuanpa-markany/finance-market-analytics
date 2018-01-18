@@ -9,7 +9,7 @@ import { getDeepFromObject } from '@nebular/auth/helpers.js';
 import { NbAuthService, NB_AUTH_OPTIONS_TOKEN, NbAuthResult } from '@nebular/auth';
 
 @Component({
-  selector: 'nb-logout',
+  selector: 'ngx-logout',
   template: `
     <div>Logging out, please wait...</div>
   `,

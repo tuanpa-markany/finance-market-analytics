@@ -24,7 +24,7 @@ import {
   NbLogoutComponent,
   NbRegisterComponent,
   NbRequestPasswordComponent,
-  NbResetPasswordComponent
+  NbResetPasswordComponent,
 } from './auth/components';
 
 import {
@@ -79,7 +79,7 @@ const COMPONENTS = [
   NbLogoutComponent,
   NbRegisterComponent,
   NbRequestPasswordComponent,
-  NbResetPasswordComponent
+  NbResetPasswordComponent,
 ];
 
 const PIPES = [
