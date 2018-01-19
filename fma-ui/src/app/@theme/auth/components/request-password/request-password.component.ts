@@ -11,7 +11,7 @@ import { NbAuthService, NB_AUTH_OPTIONS_TOKEN, NbAuthResult } from '@nebular/aut
   selector: 'ngx-request-password-page',
   styleUrls: ['./request-password.component.scss'],
   template: `
-    <nb-auth-block>
+    <ngx-auth-block>
       <h2 class="title">Forgot Password</h2>
       <small class="form-text sub-title">Enter your email adress and we’ll send a link to reset your password</small>
       <form (ngSubmit)="requestPass()" #requestPassForm="ngForm">
@@ -57,7 +57,7 @@ import { NbAuthService, NB_AUTH_OPTIONS_TOKEN, NbAuthResult } from '@nebular/aut
           <a routerLink="../register"><strong>Sign Up</strong></a>
         </small>
       </div>
-    </nb-auth-block>
+    </ngx-auth-block>
   `,
 })
 export class NbRequestPasswordComponent {

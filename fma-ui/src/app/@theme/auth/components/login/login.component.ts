@@ -11,7 +11,7 @@ import { NbAuthService, NB_AUTH_OPTIONS_TOKEN, NbAuthResult } from '@nebular/aut
 @Component({
   selector: 'ngx-login',
   template: `
-    <nb-auth-block>
+    <ngx-auth-block>
       <h2 class="title">Sign In</h2>
       <small class="form-text sub-title">Hello! Sign in with your username or email</small>
 
@@ -89,7 +89,7 @@ import { NbAuthService, NB_AUTH_OPTIONS_TOKEN, NbAuthResult } from '@nebular/aut
           Don't have an account? <a routerLink="../register"><strong>Sign Up</strong></a>
         </small>
       </div>
-    </nb-auth-block>
+    </ngx-auth-block>
   `,
 })
 export class NbLoginComponent {
